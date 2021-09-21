@@ -1,0 +1,25 @@
+.subHeading {
+  font-weight: 700;
+  font-size: 16px;
+  color: #393939;
+}
+
+.modalTitle {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.btn {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  border-radius: 8px !important;
+  padding: 13px 16px !important;
+}
+
+.emptyFolderMessage {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #717171;
+}

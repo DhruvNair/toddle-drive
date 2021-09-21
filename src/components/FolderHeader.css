@@ -1,0 +1,14 @@
+.folderHeaderContainer {
+  padding-top: 30px;
+}
+
+.folderName {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.folderDetails {
+  font-weight: 500;
+  font-size: 16px;
+  color: #717171;
+}

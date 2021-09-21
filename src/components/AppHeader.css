@@ -1,0 +1,41 @@
+.header-container {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(45, 45, 45, 0.1);
+}
+
+.backButton {
+  opacity: 0.2;
+  margin-left: 15px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.crumbs {
+  display: flex;
+  flex-direction: "row";
+  margin-left: 10px;
+}
+
+.crumb {
+  margin: 0 10px;
+}
+
+.crumbText {
+  margin-right: 15px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+.currentCrumb {
+  color: black;
+  font-weight: bold;
+}
+
+.crumbNext {
+  height: 10px;
+}

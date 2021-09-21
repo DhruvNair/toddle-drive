@@ -1,0 +1,23 @@
+.optionContainer {
+  height: 55px;
+  display: flex;
+  padding: 18px;
+  padding-right: 32px;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.optionContainer:hover {
+  background-color: #ebebeb;
+}
+
+.optionIcon {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.optionText {
+  color: #717171;
+  font-weight: 500;
+  font-size: 16px;
+}

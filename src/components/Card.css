@@ -1,0 +1,67 @@
+.cardContainer {
+  width: 245px;
+  margin: 20px 0px;
+  margin-right: 26px;
+}
+.cardHeaderImage {
+  height: 205px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  font-weight: 500;
+  font-size: 16px;
+  color: #2b2b2b;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.fileExtension {
+  color: #717171;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.cardTitleContainer {
+  max-width: calc(100% - 20px);
+}
+
+.optionsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.optionsIconContainer {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.optionsIconContainer:hover {
+  background-color: #ebebeb !important;
+}
+
+.optionsIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.unknownFileLogo {
+  color: #717171;
+  font-size: 100px;
+}
