@@ -1,14 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 import { Card } from "react-bootstrap";
 import { useHistory } from "react-router";
-import MenuIcon from "../assets/DotsVerticalO.svg";
-import PDFIcon from "../assets/File-pdf.svg";
-import PPTIcon from "../assets/File-ppt.svg";
-import TextIcon from "../assets/File-text.svg";
-import FolderIcon from "../assets/Folder.svg";
-import Entity, { extensionType } from "../models/Entity";
+import MenuIcon from "../../../../assets/DotsVerticalO.svg";
+import PDFIcon from "../../../../assets/File-pdf.svg";
+import PPTIcon from "../../../../assets/File-ppt.svg";
+import TextIcon from "../../../../assets/File-text.svg";
+import FolderIcon from "../../../../assets/Folder.svg";
+import Entity, { extensionType } from "../../../../models/Entity";
 import "./Card.css";
-import CardOptions from "./CardOptions";
+import CardOptions from "./CardOptions/CardOptions";
 
 const mapEntityToStyle = (type: extensionType) => {
   switch (type) {

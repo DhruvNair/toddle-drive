@@ -1,5 +1,5 @@
 import { Button, Modal } from "react-bootstrap";
-import Entity from "../models/Entity";
+import Entity from "../../../../models/Entity";
 import "./EntityDeleteModal.css";
 
 type Props = {

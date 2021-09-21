@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import Entity from "../models/Entity";
-import Card from "./Card";
-import RenameIcon from "../assets/Rename.svg";
-import DuplicateIcon from "../assets/Duplicate.svg";
-import DeleteIcon from "../assets/Delete.svg";
+import Entity from "../../../models/Entity";
+import Card from "./Card/Card";
+import RenameIcon from "../../../assets/Rename.svg";
+import DuplicateIcon from "../../../assets/Duplicate.svg";
+import DeleteIcon from "../../../assets/Delete.svg";
 import "./FolderContents.css";
-import EntityRenameModal from "./EntityRenameModal";
-import EntityDeleteModal from "./EntityDeleteModal";
+import EntityRenameModal from "./EntityRenameModal/EntityRenameModal";
+import EntityDeleteModal from "./EntityDeleteModal/EntityDeleteModal";
 
 type Props = {
   folders: Entity[];

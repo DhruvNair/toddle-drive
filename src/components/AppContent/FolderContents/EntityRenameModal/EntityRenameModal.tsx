@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button, FormControl, Modal } from "react-bootstrap";
-import Entity from "../models/Entity";
+import Entity from "../../../../models/Entity";
 import "./EntityRenameModal.css";
 
 type Props = {

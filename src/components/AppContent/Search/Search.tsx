@@ -1,7 +1,7 @@
 import FormControl from "react-bootstrap/esm/FormControl";
 import InputGroup from "react-bootstrap/esm/InputGroup";
-import SearchIcon from "../assets/SearchO.svg";
-import CancelIcon from "../assets/Union.png";
+import SearchIcon from "../../../assets/SearchO.svg";
+import CancelIcon from "../../../assets/Union.png";
 import "./Search.css";
 
 type Props = {

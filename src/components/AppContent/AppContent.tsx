@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router";
-import { initialEntities } from "../data";
-import { seperateNameFromExtension } from "../helpers";
+import { initialEntities } from "../../data";
+import { seperateNameFromExtension } from "../../helpers";
 import Entity, {
   extensionType,
   getExtensionFromFileName,
-} from "../models/Entity";
-import EntityCreationModal from "./EntityCreationModal";
-import FolderContents from "./FolderContents";
-import FolderHeader from "./FolderHeader";
+} from "../../models/Entity";
+import EntityCreationModal from "./FolderHeader/EntityCreationModal/EntityCreationModal";
+import FolderContents from "./FolderContents/FolderContents";
+import FolderHeader from "./FolderHeader/FolderHeader";
 import NotFound from "./NotFound";
-import Search from "./Search";
+import Search from "./Search/Search";
 
 const AppContent = () => {
   const [creationEntityType, setCreationEntityType] = useState<

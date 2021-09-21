@@ -1,6 +1,6 @@
-import BackIcon from "../assets/Back.svg";
-import ToddleLogo from "../assets/toddle-logo.svg";
-import CrumbNext from "../assets/Path (1).png";
+import BackIcon from "../../assets/Back.svg";
+import ToddleLogo from "../../assets/toddle-logo.svg";
+import CrumbNext from "../../assets/Path (1).png";
 import "./AppHeader.css";
 import { useLocation } from "react-router";
 import { Link } from "react-router-dom";

@@ -1,6 +1,6 @@
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
-import AppContent from "./components/AppContent";
-import AppHeader from "./components/AppHeader";
+import AppContent from "./components/AppContent/AppContent";
+import AppHeader from "./components/AppHeader/AppHeader";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {

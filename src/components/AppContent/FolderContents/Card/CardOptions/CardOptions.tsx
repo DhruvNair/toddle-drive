@@ -1,5 +1,5 @@
 import { Dropdown } from "react-bootstrap";
-import Option from "./Option";
+import Option from "./Option/Option";
 import "./CardOptions.css";
 
 type Props = {
