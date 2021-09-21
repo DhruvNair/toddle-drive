@@ -92,7 +92,7 @@ const AppContent = () => {
                 ...eachEntity,
                 fileType:
                   entity.type === "file"
-                    ? getExtensionFromFileName(newName)
+                    ? getExtensionFromFileName(newName + "." + extension)
                     : extensionType.folder,
                 name: newName,
               }
